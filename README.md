@@ -21,7 +21,7 @@ The data was collected from 4 (2 Web Scrapings, 1 Geocoding, 1 Foursquare API) d
 - **potential**:<br /> The potential is a combination of the previous two variables and was computed as following: 1/2 * (normalized(population density) + (normalized(retail sparsity)).
 
 **3. Visualization with Folium:** <br />
-<img src="https://github.com/kevin-goetz/High-Potential-Regions-for-E-Commerce/blob/main/Folium_Potential.gif" align="center" height="500em" />
+<img src="https://github.com/kevin-goetz/High-Potential-Regions-for-E-Commerce/blob/main/Output%20Data/Folium_Potential.gif" align="center" height="500em" />
 
 
 ### Why
