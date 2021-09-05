@@ -14,7 +14,6 @@ The data was collected from 4 (2 Web Scrapings, 1 Geocoding, 1 Foursquare API) d
 - **Web scraping Wikipedia**:<br />Wikipedia was used to gain insights about the population and area of the location. In a first step a search string consisting of the zipcode and the quarter name was concatenated with the Wikipedia search URL having the settings on “Sort by most relevant”. In a second step the result page was crawled for the first entry’s URL and this URL was then requested to get to the Wikipedia page of the quarter, city or village (depending on the data).
 - **Geocoding the locations**: <br />The distance to retail shops can only be computed (Step 4) when the location data is enriched with coordinates. The library “Geocoder” and an OpenStreetMap API were used to obtain the latitude, longitude and the bounding boxes.
 - **Adding the Retail Information**: <br />As a last step for the data collection the Foursquare Developer API (“Personal” account) was used to map Fashion Retail Shops with their distance to the location data. The Foursquare API therefore uses the Latitudes and Longitudes from the previous step and returns all the stores’ names, categories, sub-categories, latitudes and longitudes and distance to the requested location in a user-defined circumference. The circumference (or radius = r) was computed for every location while looping through coordinates for API-requests, applying the formula “A = π r2” where A is known from the crawled Wikipedia pages and π (pi) is a constant: r = np.sqrt(A / π).
-<br />
 
 **2. KPI Computation:**
 -	**population density**:<br /> A float computed from the Wikipedia info on population and area. Population divided by area is the population density.
@@ -22,7 +21,7 @@ The data was collected from 4 (2 Web Scrapings, 1 Geocoding, 1 Foursquare API) d
 - **potential**:<br /> The potential is a combination of the previous two variables and was computed as following: 1/2 * (normalized(population density) + (normalized(retail sparsity)).
 
 **3. Visualization with Folium:**
-
+[<img src="https://github.com/kevin-goetz/kevin-goetz/blob/main/LinkedIn Logo.png" align="center"/>]
 
 
 ### Why
