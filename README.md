@@ -6,7 +6,7 @@
 This Data Science project is an analyses of the sales & marketing potential of german regions for E-Commerce companies. It uses a combination of relative population density & relative retail density to combine those two KPIs for a final measure of potential. Regions with a high potential are then visualized in an interactive Folium plot.
 
 ### How
-You can find the long version of "how" here: [**Project Report**]() <br />
+You can find the long version of "how" here: [**Project Report**](https://github.com/kevin-goetz/High-Potential-Regions-for-E-Commerce/blob/main/E-Commerce%20High%20Potential%20Regions_Report.pdf) <br />
 The data was collected from 4 (2 Web Scrapings, 1 Geocoding, 1 Foursquare API) different sources, then cleaned & combined and finally the KPIs were computed and the geolocation data visualized.
 
 **1. Data Collection:**
@@ -67,7 +67,7 @@ The biggest possibility for this project is the national census 2022 in Germany.
 ## more Infos
 This is just a short README. I have written a full project report that entails all the details of the process + some discussion and outlook.
 
-You can find it here: [**Project Report**]()
+You can find it here: [**Project Report**](https://github.com/kevin-goetz/High-Potential-Regions-for-E-Commerce/blob/main/E-Commerce%20High%20Potential%20Regions_Report.pdf)
 
 ## 📫 Let's connect and learn from each other:
 
