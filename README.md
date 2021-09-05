@@ -18,7 +18,21 @@ Technical skills learned in this course are:
 - Data Visualization (Matplotlib, Folium)
 
 ## Requirements
+The values you are prompted for are:
 
+| Library            | Version |
+| :---               | --- |
+| sys (Python)       | 3.9.1 | 
+| pandas             | 1.2.5 | 
+| numpy              | 1.21.0 | 
+| re                 | 2.2.1 |
+| sklearn            | 0.24.2 |
+| json               | 2.0.9 | 
+| requests           | 2.25.1 | 
+| bs4                | 4.9.3 |
+| folium             | 0.5.0 |
+| matplotlib         | 3.4.1 |
+| geocoder           | 1.38.1 |
 
 ## Personal Learnings
 Some websites block python scripts that try to scrape them (read the /robots.txt from the scraped site first and always obey to the legal rules!) but you can bypass those errors when you don't exceed rate limits (time.sleep(np.random.uniform(0,2)) and when you tell the server that you are a browser (Request-headers: headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1)'}). In the end the scraped data is mostly really messy and it is a good practice to check some of the scraped sites by hand to determine if the correct data was picked by your algorithm. The most tricky thing is not that the scraping throws NULL values or error messages at you, it is that it gets you data but you don't know for sure if it is the correct one ("Is this region really that big or did the algo scrape the wrong information?").
