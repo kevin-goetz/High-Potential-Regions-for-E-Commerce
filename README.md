@@ -1,5 +1,14 @@
 # High-Potential-Regions-for-E-Commerce
 
+## Access 
+View the notebooks online:
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/kevin-goetz/High-Potential-Regions-for-E-Commerce/tree/main/)
+
+Excecute the notebooks online: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kevin-goetz/High-Potential-Regions-for-E-Commerce/HEAD)
+
+ This can take some time if the binder environment needs to be rebuilt. 
+
 ## Description
 
 ### What
