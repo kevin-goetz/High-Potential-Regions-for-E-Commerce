@@ -12,7 +12,7 @@ Excecute the notebooks online:
 ## Description
 
 ### What
-This Data Science project is an analyses of the sales & marketing potential of german regions for E-Commerce companies. It uses a combination of relative population density & relative retail density to combine those two KPIs for a final measure of potential. Regions with a high potential are then visualized in an interactive Folium plot.
+This Data Science project is an analyses of the sales & marketing potential of German regions for E-Commerce companies. It uses a combination of relative population density & relative retail density to combine those two KPIs for a final measure of potential. Regions with a high potential are then visualized in an interactive Folium plot.
 
 ### How
 You can find the long version of "how" here: [**Project Report**](https://github.com/kevin-goetz/High-Potential-Regions-for-E-Commerce/blob/main/E-Commerce%20High%20Potential%20Regions_Report.pdf) <br />
